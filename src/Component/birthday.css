@@ -1,0 +1,45 @@
+.bdi{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.con{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+.bg{
+    background-color: palevioletred;
+}
+
+.bt{
+    padding: 20px;
+    font-size: 40px;
+    /* background-color: aqua; */
+    /* border-radius: 10px; */
+    /* text-align: center;
+     */
+     display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+
+
+    
+    
+
+}
