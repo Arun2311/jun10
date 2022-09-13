@@ -5,7 +5,7 @@ export default function Tourist() {
     const [todos,setTodos]= useState([])
 
 const abc = () =>{
-    fetch("https://course-api.com/react-tabs-project")
+    fetch("https://jsonplaceholder.typicode.com/todos")
     .then(r => r.json())
     .then(e => setTodos(e))
 }
@@ -22,9 +22,10 @@ useEffect(()=>{
         {todos.map(e=>
             <div>
 
-              <h1>{e.title}</h1>  
-              <h4>  {e.dates}</h4>
-                <p>{e.duties}</p>
+              <span>{e.title}</span> 
+              <button className='btn btn-danger'>Delete</button> 
+              {/* <h4>  {e.dates}</h4>
+                <p>{e.duties}</p> */}
 
 
 
