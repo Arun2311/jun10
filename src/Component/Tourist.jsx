@@ -4,14 +4,14 @@ import { useState } from 'react'
 export default function Tourist() {
     const [todos,setTodos]= useState([])
 
-const rrr = () =>{
+const abc = () =>{
     fetch("https://course-api.com/react-tabs-project")
     .then(r => r.json())
     .then(e => setTodos(e))
 }
 
 useEffect(()=>{
-    rrr()
+    abc()
   })
 
 
